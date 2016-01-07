@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GTracerGps</string>
+
+    <string name="txt_btnYes">Yes</string>
+    <string name="txt_btnNo">No</string>
+    <string name="txt_btnStartLoc">Start</string>
+    <string name="txt_btnStopLoc">Stop</string>
+    <string name="txt_export">Export</string>
+    <string name="txt_btnExportLoc">File</string>
+    <string name="txt_btnExportGMap">GMap</string>
+    <string name="txt_btnExportKML">KML</string>
+    <string name="txt_location_count">Location Count</string>
+    <string name="txt_init_location_count">0</string>
+    <string name="txt_distance">Distance</string>
+    <string name="txt_init_distance">0</string>
+    <string name="txt_speed">Speed</string>
+    <string name="txt_init_speed">0</string>
+    <string name="txt_total_distance">Total Distance</string>
+    <string name="txt_init_total_distance">0</string>
+    <string name="txt_elapsed_time">Elapsed Time</string>
+    <string name="txt_init_elapsed_time">0</string>
+    <string name="txt_speed_average">Speed Average</string>
+    <string name="txt_init_speed_average">0</string>
+    <string name="txt_no_location">No location</string>
+    <string name="txt_switch_trace">Trace</string>
+    <string name="txt_switch_trace_on">On</string>
+    <string name="txt_switch_trace_off">Off</string>
+    <string name="txt_info_location_exported">Location Exported</string>
+    <string name="txt_info_no_location_to_export">No Location to Export</string>
+    <string name="txt_confirm_clean_old_data">Are you sure you want to clean old data ?</string>
+</resources>

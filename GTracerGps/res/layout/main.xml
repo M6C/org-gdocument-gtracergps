@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+	    <TextView
+	        android:id="@+id/txtSwitchTrace"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_switch_trace"/>
+
+	    <Switch android:id="@+id/btnSwitchTrace"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textOff="@string/txt_switch_trace_off"
+		    android:textOn="@string/txt_switch_trace_on"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	    />
+	</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center" >
+	    <Space android:minHeight="30sp"/>
+	</TableRow>
+    
+    <TableRow>
+	    <TextView
+	        android:id="@+id/txtSpeed"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_speed"
+	        android:textSize="16sp"/>
+	    <TextView
+	        android:id="@+id/vwSpeed"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	        android:text="@string/txt_init_speed"
+	        android:textSize="22sp"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+	        android:id="@+id/txtSpeedAverage"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_speed_average"
+	        android:textSize="16sp"/>
+	    <TextView
+	        android:id="@+id/vwSpeedAverage"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	        android:text="@string/txt_init_speed_average"
+	        android:textSize="22sp"/>
+	</TableRow>
+    <TableRow>
+	    <TextView
+	        android:id="@+id/txtTotalDistance"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_total_distance"
+	        android:textSize="16sp"/>
+	    <TextView
+	        android:id="@+id/vwTotalDistance"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	        android:text="@string/txt_init_total_distance"
+	        android:textSize="22sp"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+	        android:id="@+id/txtElapsedTime"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_elapsed_time"
+	        android:textSize="16sp"/>
+	    <TextView
+	        android:id="@+id/vwElapsedTime"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	        android:text="@string/txt_init_elapsed_time"
+	        android:textSize="22sp"/>
+	</TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_gravity="center" >
+
+	    <Space android:minHeight="40sp"/>
+	</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center" >
+        <TextView
+	        android:id="@+id/txtExport"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_export"/>
+        
+	    <Button
+	        android:id="@+id/btnExportLoc"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_gravity="fill"
+	        android:text="@string/txt_btnExportLoc" />
+	
+
+	    <Button
+	        android:id="@+id/btnExportGMap"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="2"
+	        android:layout_gravity="fill"
+	        android:text="@string/txt_btnExportGMap" />
+
+	    <Button
+	        android:id="@+id/btnExportKML"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="3"
+	        android:layout_gravity="fill"
+	        android:text="@string/txt_btnExportKML" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center" >
+	    <Space android:minHeight="40sp"/>
+	</TableRow>
+    	
+    <TableRow>
+	    <TextView
+	        android:id="@+id/txtLocationCount"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:text="@string/txt_location_count"/>
+	    <TextView
+	        android:id="@+id/vwLocationCount"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_column="1"
+	        android:layout_span="3"
+	        android:text="@string/txt_init_location_count"/>
+	</TableRow>
+	<TableRow>
+	    <TextView
+	        android:id="@+id/vwLocation"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:layout_span="3"
+	        android:text="@string/txt_no_location" />
+
+	</TableRow>
+</TableLayout>
